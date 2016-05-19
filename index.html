@@ -13,3 +13,24 @@ touch index.html
   <h1>This is a great website</h1>
 </body>
 </html>
+
+// at CLI
+git add index.html
+git commit -m "Initial index"
+git checkout -b feature/addContent
+
+// in index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Git rebasing example!</title>
+</head>
+<body>
+  <h1>This is a great website</h1>
+  <p>I come along and decide to add some additional content</p>
+</body>
+</html>
+
+// at CLI
+git add index.html
+git commit -m "My work first part"
